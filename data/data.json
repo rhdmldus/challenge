@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "type": "happy",
+      "gender": "female",
+      "size": "large",
+      "color": "blue",
+      "image": "( ¨̮ )"
+    },
+    {
+      "type": "happy",
+      "gender": "female",
+      "size": "large",
+      "color": "blue",
+      "image": "◟(๑•͈ᴗ•͈)◞"
+    },
+    {
+      "type": "happy",
+      "gender": "female",
+      "size": "large",
+      "color": "blue",
+      "image": "╰( ･ ᗜ ･ )╯"
+    },
+    {
+      "type": "happy",
+      "gender": "female",
+      "size": "large",
+      "color": "blue",
+      "image": "(✌ﾟ∀ﾟ)☞"
+    },
+    {
+      "type": "happy",
+      "gender": "female",
+      "size": "large",
+      "color": "blue",
+      "image": "(✌’ω’)✌"
+    },
+    {
+      "type": "happy",
+      "gender": "female",
+      "size": "large",
+      "color": "blue",
+      "image": "٩( ᐛ )و"
+    },
+    {
+      "type": "sad",
+      "gender": "female",
+      "size": "large",
+      "color": "blue",
+      "image": "ᕕ( ཀ ʖ̯ ཀ)ᕗ"
+    },
+    {
+      "type": "shy",
+      "gender": "female",
+      "size": "large",
+      "color": "blue",
+      "image": "(⸝⸝⸝º⁻̫º⸝⸝⸝)"
+    },
+    {
+      "type": "tshirt",
+      "gender": "female",
+      "size": "large",
+      "color": "blue",
+      "image": "(¬▂¬)"
+    },
+    {
+      "type": "tshirt",
+      "gender": "female",
+      "size": "large",
+      "color": "blue",
+      "image": "=͟͟͞͞(꒪ᗜ꒪ ‧̣̥̇)♡"
+    }
+  ]
+}
