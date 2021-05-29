@@ -23,11 +23,16 @@ function onbtnClick(event, items) {
   console.log(dataset);
   const key = dataset.key;
   const value = dataset.value;
+  const btns = document.querySelectorAll(".btn_wrap .btn");
 
   if (key == null || value == null) {
     return;
   }
   addItems(items.filter((item) => item[key] === value));
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].classList.remove("on");
+  }
+  event.target.classList.add("on");
 }
 // 이벤트리스너
 function setEventListeners(items) {
