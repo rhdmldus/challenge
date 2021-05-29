@@ -60,7 +60,7 @@ body {
 .btn_wrap {
   display: flex;
   margin: calc(var(--base-space) * 3);
-  width: 60%;
+  width: 50%;
   align-items: center;
   justify-content: center;
 }
@@ -73,7 +73,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   overflow-y: auto;
-  width: 60%;
+  width: 50%;
   height: 400px;
   list-style: none;
   box-sizing: border-box;
@@ -122,6 +122,12 @@ body {
 .item_description {
   margin-left: var(--base-space);
   font-size: var(--font-size);
+}
+@media screen and (max-width: 1220px) {
+  .btn_wrap,
+  .items {
+    width: 60%;
+  }
 }
 @media screen and (max-width: 768px) {
   html {
