@@ -11,7 +11,7 @@
   --base-space: 8px;
   --size-border: 4px;
   --size-btn: 60px;
-  --size-thumb_nail: 60px;
+  --size-face: 60px;
   --font-size: 18px;
   /* animation */
   --animation-duration: 300ms;
@@ -64,21 +64,63 @@ body {
 .pink {
   background-color: var(--color-pink);
 }
+.worried {
+  background-color: var(--color-worried);
+}
+.fight {
+  background-color: var(--color-fight);
+}
+.weird {
+  background-color: var(--color-weird);
+}
+
 .items {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
   overflow-y: auto;
   width: 60%;
-  height: 60%;
+  height: 400px;
   list-style: none;
   padding-left: 0;
 }
 .item {
-  margin-bottom: var(--base-space);
-  background-color: var(--color-white);
-  display: flex;
-  align-items: center;
+  width: 42.5%;
+  height: 40px;
+  box-sizing: border-box;
   padding: var(--base-space);
+  position: relative;
+  margin-bottom: var(--base-space);
+  margin-right: var(--base-space);
+  background-color: var(--color-white);
+  /* display: flex; */
+  padding: var(--base-space);
+  cursor: pointer;
+  text-align: center;
+  /* align-self: center; */
 }
-.thumb_nail {
+
+.item::after {
+  opacity: 0;
+  content: "copied";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: var(--size-border);
+  display: inline-block;
+  text-align: center;
+  background-color: var(--color-blue);
+  color: #fff;
+  transition: calc(var(--animation-duration) * 2);
+}
+.item.copied::after {
+  opacity: 1;
+}
+.face {
   display: inline-block;
 }
 .item_description {
